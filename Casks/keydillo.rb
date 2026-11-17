@@ -7,12 +7,12 @@ cask "keydillo" do
   desc "Lets AI coding tools use your API keys without seeing them"
   homepage "https://github.com/Ephibbs/keydillo"
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "keydillo.app"
 
-  uninstall quit:      "com.studiokillswitch.keydillo",
-            launchctl: "com.studiokillswitch.keydillo.agent"
+  uninstall launchctl: "com.studiokillswitch.keydillo.agent",
+            quit:      "com.studiokillswitch.keydillo"
 
   zap trash: [
     "~/.local/bin/kd",
