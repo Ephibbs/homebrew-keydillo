@@ -29,6 +29,9 @@ cask "keydillo" do
       /plugin marketplace add Ephibbs/keydillo
       /plugin install keydillo@keydillo
 
+    Using Cursor, Codex or another AI tool? Run:
+      npx skills add Ephibbs/keydillo
+
     Then put kd in front of commands that use your keys (kd npm run dev). Claude does this for you.
   EOS
 end
