@@ -1,6 +1,6 @@
 cask "keydillo" do
-  version "0.1.1"
-  sha256 "4ffeb6020c6da93d93c2ff9c939ac4c3d5507ceabb3a518633fc0e63cd0fe8bd"
+  version "0.1.2"
+  sha256 "bc6c64d2359277af8a77e818fa60e58b74fd411dcb88cbc0990d7db71b53f373"
 
   url "https://github.com/Ephibbs/keydillo/releases/download/v#{version}/keydillo.zip"
   name "keydillo"
